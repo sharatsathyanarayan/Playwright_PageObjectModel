@@ -1,0 +1,22 @@
+{
+  "name": "playwright_pageobjectmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharatsathyanarayan/Playwright_PageObjectModel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharatsathyanarayan/Playwright_PageObjectModel/issues"
+  },
+  "homepage": "https://github.com/sharatsathyanarayan/Playwright_PageObjectModel#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
