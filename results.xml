@@ -1,0 +1,63 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="7.6607899999999995">
+<testsuite name="example.spec.js" timestamp="2025-10-26T03:13:04.148Z" hostname="chromium" tests="2" failures="1" skipped="0" time="6.896" errors="0">
+<testcase name="has title" classname="example.spec.js" time="0.693">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="6.203">
+<failure message="example.spec.js:11:5 get started link" type="FAILURE">
+<![CDATA[  [chromium] › example.spec.js:11:5 › get started link ─────────────────────────────────────────────
+
+    Error: expect(locator).toBeHidden() failed
+
+    Locator:  getByRole('heading', { name: 'Installation' })
+    Expected: hidden
+    Received: visible
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeHidden" with timeout 5000ms
+      - waiting for getByRole('heading', { name: 'Installation' })
+        9 × locator resolved to <h1>Installation</h1>
+          - unexpected value "visible"
+
+
+      22 |   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+      23 |
+    > 24 |   await expect(page.getByRole('heading', { name: 'Installation' })).toBeHidden();
+         |                                                                     ^
+      25 | });
+      26 |
+        at /Users/sharats/Documents/Playwright_Workspace/Playwright_PageObjectModel/tests/example.spec.js:24:69
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/example-get-started-link-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/example-get-started-link-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/example-get-started-link-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/example-get-started-link-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/example-get-started-link-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-get-started-link-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/example-get-started-link-chromium/video.webm]]
+
+[[ATTACHMENT|test-results/example-get-started-link-chromium/error-context.md]]
+
+[[ATTACHMENT|test-results/example-get-started-link-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
