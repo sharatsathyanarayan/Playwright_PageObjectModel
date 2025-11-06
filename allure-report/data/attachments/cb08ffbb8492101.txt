@@ -1,3 +1,0 @@
-Cart page title: undefined
-Product name in cart: Sauce Labs Backpack
-Product price in cart: $29.99

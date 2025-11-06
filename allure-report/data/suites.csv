@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","10120","pageobjectcase","webkit","Thu Oct 30 14:01:57 PDT 2025","passed","Thu Oct 30 14:02:07 PDT 2025","","PageObjectTests.spec.js","",""
-"","10502","pageobjectcase","firefox","Thu Oct 30 14:01:57 PDT 2025","passed","Thu Oct 30 14:02:08 PDT 2025","","PageObjectTests.spec.js","",""
-"","9975","pageobjectcase","chromium","Thu Oct 30 14:01:57 PDT 2025","passed","Thu Oct 30 14:02:07 PDT 2025","","PageObjectTests.spec.js","",""
+"","692","has title","chromium","Wed Nov 05 20:13:57 PST 2025","passed","Wed Nov 05 20:13:58 PST 2025","","example.spec.js","",""
+"","1127","get started link","chromium","Wed Nov 05 20:13:58 PST 2025","passed","Wed Nov 05 20:13:59 PST 2025","","example.spec.js","",""
+"","168","api get test","chromium","Wed Nov 05 20:13:57 PST 2025","passed","Wed Nov 05 20:13:57 PST 2025","","ApiTests.spec.js","",""
+"","8972","pageobjectcase","chromium","Wed Nov 05 20:13:57 PST 2025","passed","Wed Nov 05 20:14:06 PST 2025","","PageObjectTests.spec.js","",""
